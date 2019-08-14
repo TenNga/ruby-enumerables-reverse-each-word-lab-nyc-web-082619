@@ -1,4 +1,4 @@
 def reverse_each_word(sentence) 
   words = sentence.split(" ")
-  words.each 
+  words.each { |word| word.reverse }
 end
